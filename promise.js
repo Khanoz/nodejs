@@ -1,9 +1,11 @@
 const promesaExitosa = true;
 const primeraPromesa = new Promise((resolve, reject) => {
     setTimeout(() => {
-        if (promesaExitosa) {
+        if (promesaExitosa) 
+        {
             resolve('ToDo Ok');
-        } else {
+        } 
+        else {
             reject('Error');
         }
     }, 3000);
